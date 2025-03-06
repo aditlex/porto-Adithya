@@ -32,7 +32,7 @@ export default function Home() {
         </motion.div>
 
         <motion.img
-          src="/line.png"
+          src="./line.png"
           className="w-20 h-20 md:w-28 md:h-28 relative mx-auto md:mx-0 transition-transform duration-300 rotate-90 md:rotate-[15deg]"
           initial={{ opacity: 0}}
           animate={{ opacity: 1}}
@@ -48,7 +48,7 @@ export default function Home() {
           whileHover={{ scale: 1.1 }}
         >
           <img
-            src="/profile.jpg"
+            src="./profile.jpg"
             alt="Profile"
             className="w-20 h-20 md:w-28 md:h-28 rounded-full border-2 border-gray-600 object-cover mx-auto md:mx-0"
           />
