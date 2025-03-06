@@ -20,7 +20,7 @@ export default function Navbar() {
         scrolled ? "bg-gray-900 shadow-lg" : "bg-transparent"
       } text-white py-4 px-6 flex justify-between items-center`}
     >
-      <img src="/A.png" alt="Logo" className="h-10 w-auto" />
+      <img src="./A.png" alt="Logo" className="h-10 w-auto" />
       <ul className="flex space-x-6">
         <li>
           <Link href="/">
