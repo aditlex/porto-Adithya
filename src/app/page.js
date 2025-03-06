@@ -64,7 +64,7 @@ export default function Home() {
       {/* Gambar Sinar di Atas Garis Gradasi */}
       <div className="flex justify-center mt-0  mb-0 relative -bottom-6">
   <motion.img
-    src="/sinar.png" 
+    src="./sinar.png" 
     alt="Sinar" 
     className="w-[90%] max-w-xs md:max-w-md lg:max-w-[700px] h-auto"
     initial={{ opacity: 0}}
@@ -103,7 +103,7 @@ export default function Home() {
         viewport={{ once: true }}
       >
         <img
-          src={`/project${index + 1}.png`}
+          src={`./project${index + 1}.png`}
           alt="Project"
           className="w-full h-40 object-cover rounded-md z-10"
         />
@@ -150,31 +150,31 @@ export default function Home() {
     {
       title: "Latest Project",
       description: "Showcase the latest project, such as using Next.js and Tailwind CSS to build a portfolio page.",
-      imgSrc: "/blog1.jpg",
+      imgSrc: "./blog1.jpg",
       link: "https://github.com/topics/nextjs-portfolio",
     },
     {
       title: "Type data",
       description: "Data Types refer to the kind of value a variable can hold. Each data type specifies what kind of operations can be performed on it, and how much space it will take in memory.",
-      imgSrc: "/blog3.jpg",
+      imgSrc: "./blog3.jpg",
       link: "https://www.dicoding.com/blog/macam-macam-tipe-data/",
     },
     {
       title: "Learning Journey",
       description: "Share the learning journey in mastering new technologies, Full-Stack Dev, Game Dev, Software Dev.",
-      imgSrc: "/blog2.jpg",
+      imgSrc: "./blog2.jpg",
       link: "https://roadmap.sh/",
     },
     {
       title: "Main Advantages Next.js",
       description: "Review the tools frequently used, such as Next.js or Tailwind CSS, explaining why they were chosen and their benefits.",
-      imgSrc: "/blog5.jpg",
+      imgSrc: "./blog5.jpg",
       link: "https://nextjs.org/",
     },
     {
       title: "Programing Constructs",
       description: "Share a success story or case study of a project, such as the website developed for SMK Negeri 1 Denpasar.",
-      imgSrc: "/blog4.jpg",
+      imgSrc: "./blog4.jpg",
       link: "https://www.savemyexams.com/gcse/computer-science/ocr/22/revision-notes/8-programming-fundamentals/programming-fundamentals-and-data-types/programming-constructs/",
     },
   ].map((blog, index) => (
@@ -218,22 +218,22 @@ export default function Home() {
         <p className="text-gray-300 z-10">Bali, Indonesia</p>
       </div>
       <div className="flex items-center space-x-3 z-10">
-      <img src="/icons8-email-open-30.png" alt="GitHub Icon" className="w-6 h-6 object-cover " />
+      <img src="./icons8-email-open-30.png" alt="GitHub Icon" className="w-6 h-6 object-cover " />
       <p className="text-gray-300 z-10 whitespace-pre">
   Email  : <a href="mailto:adityawirya87@gmail.com" className="text-blue-400">adityawirya87@gmail.com</a>
 </p>
 
       </div>
       <div className="flex items-center space-x-3 z-10">
-        <img src="/icons8-github.svg" alt="GitHub Icon" className="w-6 h-6 object-cover whitespace-pre bg-white rounded-full " />
+        <img src="./icons8-github.svg" alt="GitHub Icon" className="w-6 h-6 object-cover whitespace-pre bg-white rounded-full " />
         <p className="text-gray-300 whitespace-pre"><a href="https://github.com/aditlex">Github : aditlex</a>  </p>
       </div>
       <div className="flex items-center space-x-3 z-10">
-        <img src="/icons8-instagram-logo.svg" alt="GitHub Icon" className="w-6 h-6  object-cover " />
+        <img src="./icons8-instagram-logo.svg" alt="GitHub Icon" className="w-6 h-6  object-cover " />
         <p className="text-gray-300 whitespace-pre"><a href="https://www.instagram.com/adhitzz_wr/">IG     : adhitzz_wr</a></p>
       </div>
       <div className="flex items-center space-x-3 z-10">
-        <img src="/icons8-tiktok-logo.svg" alt="GitHub Icon" className="w-6 h-6 object-cover " />
+        <img src="./icons8-tiktok-logo.svg" alt="GitHub Icon" className="w-6 h-6 object-cover " />
         <p className="text-gray-300 whitespace-pre"><a href="https://www.tiktok.com/@kadekaditya478">TikTok : DitZz Turu.</a> </p>
       </div>
     </div>       
