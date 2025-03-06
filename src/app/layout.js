@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "My Portfolio",
+  title: "Adithya Porto",
   description: "Portfolio Adit - Frontend Developer",
+  icons: "/favicon.ico",
 };
 
 export default function RootLayout({ children }) {
