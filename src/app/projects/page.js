@@ -16,7 +16,7 @@ export default function Projects() {
       },
       {
         id: 3,
-        title: "WebJurusan DPIB",
+        title: "UI APK Online shopping ",
         description: "An prototype online shopping platform with modern UI/UX built with flutterflow.",
         image: "./project2.png",
         link: "https://kelmpok6-xirpl-2-ng68.vercel.app/",
