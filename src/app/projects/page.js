@@ -10,14 +10,14 @@ export default function Projects() {
       {
         id: 2,
         title: "WebSMK Negeri 1 Denpasar",
-        description: "An online shopping platform with modern UI/UX.",
+        description: "A informatif web built with HTML CSS.",
         image: "./project1.png",
         link: "https://web-skensa-b5cqlljv2-aditlexs-projects.vercel.app/",
       },
       {
         id: 3,
         title: "WebJurusan DPIB",
-        description: "A powerful dashboard for managing data efficiently.",
+        description: "An prototype online shopping platform with modern UI/UX built with flutterflow.",
         image: "./project2.png",
         link: "https://kelmpok6-xirpl-2-ng68.vercel.app/",
       },
